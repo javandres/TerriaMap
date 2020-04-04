@@ -1,8 +1,12 @@
 {
   "private": true,
   "workspaces": {
-    "packages": ["packages/*"],
-    "nohoist": ["**/husky"]
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/husky"
+    ]
   },
   "name": "terriajs-map",
   "version": "0.0.1",
@@ -66,7 +70,7 @@
     "semver": "^5.0.0",
     "style-loader": "^0.23.1",
     "svg-sprite-loader": "4.1.3",
-    "terriajs": "7.11.3",
+    "terriajs": "git://github.com/javandres/terriajs.git#ubica", 
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.66.0",
     "terriajs-schema": "latest",
