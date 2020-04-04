@@ -15,7 +15,19 @@
           "type": "group",
           "preserveOrder": true,
           "isOpen": false,
-          "items": [{
+          "items": [
+            {
+              "name": "CASOS CONFIRMADOS COVID-19 POR CANTON - ECUADOR [SNGR]",
+              "type": "csv",
+              "url": "https://raw.githubusercontent.com/pablora19/COVID19_EC/master/covid_ec.csv",
+              "tableStyle": {
+                "dataVariable": "casos_confirmados"
+              },
+              "showWarnings": false,
+              "description": "Fuente: Secretaría Nacional de GEstión de Riesgos",
+              "dataCustodian": "Pablo Reyes - GitHub https://github.com/pablora19/COVID19_EC/blob/master/covid_ec.csv",
+            },
+            {
               "name": "Img Satélite - Incendio Forestal Quilanga, Loja - 9  de Sept, 2009",
               "type": "group",
               "preserveOrder": true,
@@ -1989,7 +2001,8 @@
           "type": "group",
           "preserveOrder": true,
           "isOpen": false,
-          "items": [{
+          "items": [
+            {
               "name": "POBLACIÓN Y TASAS DE CRECIMIENTO INTERCENSAL DE 2010-2001-1990 POR SEXO, SEGÚN PARROQUIAS [INEC]",
               "type": "csv",
               "url": "http://ubica.ec:8600/geoserver/estadisticas/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=estadisticas%3Apoblacion_1990_2010&maxFeatures=500000&outputFormat=csv",
