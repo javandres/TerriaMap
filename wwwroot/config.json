@@ -1,24 +1,24 @@
 {
     /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
     initializationUrls: [
-        "terria"
+        "ubica"
     ],
     parameters: {
-        googleUrlShortenerKey: null,
-        googleAnalyticsKey: null,
+        googleUrlShortenerKey: "AIzaSyClvF_7Yv8iq5TDn05q4djSvo9IH2EuE8o",
+        googleAnalyticsKey: "UA-7797332-2",
         googleAnalyticsOptions: null,
         /* Text that appears at the bottom of the map */
         disclaimer: {
-            text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-            url: ""
+            text: "UBICA Ecuador",
+            url: "https://www.ubica.ec"
         },
-        /*
+        
         // Text that will be added to any pages printed from your site.
         printDisclaimer:{
-            text:"Put your print disclaimer here.",
-            url: "#"
+            text:"UBICA Ecuador 2019",
+            url: "https://www.ubica.ec"
         },
-        */
+        
          
         // Pop-up disclaimer that will be shown at the start
         // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
@@ -33,22 +33,22 @@
         //     enableOnLocalhost: true // If false, don't show this when running on localhost
         // },
         
-        /*
+        
         developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
-        },*/
+            text: "UBICA Ecuador",
+            link: "https://www.ubica.ec"
+        },
         // This is used in various text messages. You should also set <title> in index.html
-        appName: "Terria Map",
+        appName: "GEO.UBICA.EC",
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
             "",
-            "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"https://geo.ubica.ec\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
         // Shown when things go wrong.
-        supportEmail: "help@example.com",
+        supportEmail: "info@ubica.ec",
         // You probably shouldn't change this.
         proj4ServiceBaseUrl: "proj4def/",
         // Or this
@@ -60,6 +60,8 @@
         // Enable experimental features, since its nice to have the bleeding edge.
         // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
         "experimentalFeatures": true,
+
+        "cesiumIonAccessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNGI1OTE0Ny1lMmJkLTRiYTMtYjFmYi1iZGFkYzVmZTU0NGQiLCJpZCI6MTMyOTgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1NjI5NjA5MzV9.YbGb2Fq3RZFLhSoElFcnSgptdgB1Xi4vsKGTzYhPL98"
 
         // To override TerriaJS's region mapping file with a local one.
         // regionMappingDefinitionsUrl: "data/regionMapping.json"

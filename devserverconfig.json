@@ -21,7 +21,61 @@
         "gov",
         "gov.uk",
         "gov.nz",
-        "sample.aero3dpro.com.au"
-    ]
-}
+        "sample.aero3dpro.com.au",
+        "mapainteractivo.ambiente.gob.ec",
+        "ambiente.gob.ec",
+        "gis.uazuay.edu.ec:8080",
+        "geoportal.sigtierras.gob.ec:8080",
+        "geoportal.agricultura.gob.ec",
+        "181.112.137.169:8080",
+        "181.112.137.164:8080",
+        "geo.gporellana.gob.ec:443",
+        "geo.gporellana.gob.ec",
+        "geo.quito.gob.ec:8080",
+        "mapas.imbabura.gob.ec",
+        "geoinec.inec.gob.ec:443",
+        "geoinec.inec.gob.ec",
+        "ide.cuenca.gob.ec",
+        "www.codigopostal.gob.ec",
+        "geoportal.evaluacion.gob.ec:8080",
+        "geoportal.otavalo.gob.ec",
+        "geoportal.educacion.gob.ec",
+        "mhgeoportal.hidrocarburos.gob.ec",
+        "sig.eppetroecuador.ec",
+        "181.211.37.231:1028",
+        "coos.inocar.mil.ec:8080",
+        "186.42.174.236:8080",
+        "geoportal.senagua.gob.ec",
+        "www.geoarca.gob.ec:8080",
+        "app.sni.gob.ec",
+        "arcgis.eeq.com.ec",
+        "geoinformacion.centrosur.gob.ec:443",
+        "gis.eersa.com.ec",
+        "www.geoportaligm.gob.ec",
+        "www.geoportaligm.gob.ec:80",
+        "ubica.ec:8600",
+        "190.11.14.53:6080",
+        "190.95.194.73:6080",
+        "190.152.147.234",
+        "arcgis.eeq.com.ec",
+        "ortofotos.sigtierras.gob.ec",
+        "geoportal.inclusion.gob.ec",
+        "geo.etapa.net.ec:443",
+        "geo.etapa.net.ec",
+        "maps.georeferencer.com:443"
+    ],
 
+    "shareUrlPrefixes": {
+        "g": {
+            "service": "gist",
+            "accessToken":"hidden",
+            "userAgent": "UBICAECViewer3D",
+            "gistFilename":  "usercatalog.json",
+            "gistDescription": "UBICA Ecuador short URLs"
+        }
+    },
+    "newShareUrlPrefix": "g",
+    "hostName": "geo.ubica.ec"
+
+    
+}
