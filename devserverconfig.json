@@ -62,7 +62,8 @@
         "geoportal.inclusion.gob.ec",
         "geo.etapa.net.ec:443",
         "geo.etapa.net.ec",
-        "maps.georeferencer.com:443"
+        "maps.georeferencer.com:443",
+        "201.159.223.152:80"
     ],
 
     "shareUrlPrefixes": {

@@ -3942,7 +3942,14 @@
 							}]
 						}
 					]
-				},
+        },
+        {
+          "name": "Llactalab - Universidad de Cuenca",
+          "description": "[Licence](https://llactalab.ucuenca.edu.ec/)",
+          "dataCustodian": "[Llactalab](https://llactalab.ucuenca.edu.ec/)",
+          "url": "http://201.159.223.152/geoserver/ows?service=wms?",
+          "type": "wms-getCapabilities"
+        },    
 				{
 					"name": "Universidad del Azuay",
 					"type": "group",
