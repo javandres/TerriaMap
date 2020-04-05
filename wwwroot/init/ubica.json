@@ -17,6 +17,18 @@
           "isOpen": false,
           "items": [
             {
+              "name": "FALLECIDOS COVID-19 por PROVINCIA- ECUADOR [SNGR]",
+              "type": "csv",
+              "url": "https://raw.githubusercontent.com/pablora19/COVID19_EC/master/deaths%20by%20province%20from%2026_03_2020.csv",
+              "tableStyle": {
+                "dataVariable": "fallecidos"
+              },
+              "showWarnings": false,
+              "description": "Fuente: Secretaría Nacional de Gestión de Riesgos",
+              "dataCustodian": "Pablo Reyes - GitHub https://github.com/pablora19/COVID19_EC/blob/master/covid_ec.csv",
+            },
+
+            {
               "name": "CASOS CONFIRMADOS COVID-19 POR CANTON - ECUADOR [SNGR]",
               "type": "csv",
               "url": "https://raw.githubusercontent.com/pablora19/COVID19_EC/master/covid_ec.csv",
@@ -24,7 +36,7 @@
                 "dataVariable": "casos_confirmados"
               },
               "showWarnings": false,
-              "description": "Fuente: Secretaría Nacional de GEstión de Riesgos",
+              "description": "Fuente: Secretaría Nacional de Gestión de Riesgos",
               "dataCustodian": "Pablo Reyes - GitHub https://github.com/pablora19/COVID19_EC/blob/master/covid_ec.csv",
             },
             {
