@@ -10,8 +10,9 @@
       "type": "group",
       "preserveOrder": true,
       "isOpen": true,
-      "items": [{
-          "name": "Populares",
+      "items": [
+        {
+          "name": "COVID-19 - ECUADOR",
           "type": "group",
           "preserveOrder": true,
           "isOpen": false,
@@ -27,7 +28,6 @@
               "description": "Fuente: Secretaría Nacional de Gestión de Riesgos",
               "dataCustodian": "Pablo Reyes - GitHub https://github.com/pablora19/COVID19_EC/blob/master/covid_ec.csv",
             },
-
             {
               "name": "CASOS CONFIRMADOS COVID-19 POR CANTON - ECUADOR [SNGR]",
               "type": "csv",
@@ -39,6 +39,23 @@
               "description": "Fuente: Secretaría Nacional de Gestión de Riesgos",
               "dataCustodian": "Pablo Reyes - GitHub https://github.com/pablora19/COVID19_EC/blob/master/covid_ec.csv",
             },
+            {
+              "name": "WMS-T CASOS CONFIRMADOS COVID-19 POR CANTON - ECUADOR [SNGR]",
+              "dataCustodian": "[UBICA Ecuador](https://geo.ubica.ec",
+              "url": "http://ubica.ec:8600/geoserver/regions/wms?service=WMS&version=1.1.0",
+              "layers": "regions:covid19_casos_canton",
+              "type": "wms",
+              "zoomOnEnable": true,
+              "opacity": 1
+            }
+          ]
+        },    
+        {
+          "name": "Populares",
+          "type": "group",
+          "preserveOrder": true,
+          "isOpen": false,
+          "items": [
             {
               "name": "Img Satélite - Incendio Forestal Quilanga, Loja - 9  de Sept, 2009",
               "type": "group",
